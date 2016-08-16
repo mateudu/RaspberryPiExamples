@@ -3,6 +3,7 @@ Raspberry Pi GPIO Examples
 
 
 ## HD44780 Display example
+In order to change **Raspberry Pi** display text, go to `<raspberryPiAddress>/display/display-text/` and type your text.
 * Change your **pin numbers** in _Display/gpio_helper.py_
 * Connect HD44780 to default ports:
   * **VSS (source supply)** _pin 1_ ==> GND
