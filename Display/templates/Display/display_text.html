@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Display RPi text using HD44780 display</title>
+</head>
+<body>
+    <h1>Display RPi text using HD44780 display</h1>
+    <form method="post">
+        {% csrf_token %}
+        <input type="text" name="first_line"><br/>
+        <input type="text" name="second_line"><br/>
+        <input type="submit" value="Display">
+    </form>
+</body>
+</html>
